@@ -1,0 +1,125 @@
+@font-face {
+  font-family: 'Lato', sans-serif;
+}
+
+* {
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  font-family: "Arvo", serif;
+  color: #1e151a;
+  font-size: 6vw;
+  padding-top: 2vw;
+  margin-left: 4vw;
+}
+
+body {
+  background: #bdb4a5;
+  background-image: linear-gradient(to right, #a99690, #a9a09b);
+}
+
+.top{
+  background: url("images/birds.jpg") top no-repeat;
+  background-size: cover;
+  background-position: fixed;
+  width: 100vw;
+  height: 80vw;
+  margin: none;
+  position: absolute;
+  z-index: -1;
+}
+
+#results-container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  width: 95vw;
+  height: 40vw;
+  padding-top: 3vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+.album-art img {
+  border-radius: 50%;
+}
+
+input {
+  font-family: "Lato", sans-serif;
+  font-size: 2vw;
+  color: #a1a29d;
+  text-align: center;
+  border: none;
+  border-radius: .25vw;
+  width: 29vw;
+  height: 3vw;
+  margin-left: 4vw;
+  margin-top: 1vw;
+  background: #ced2cb;
+}
+
+input::placeholder {
+  font-family: "Lato", sans-serif;
+  font-size: 2vw;
+  color: #a1a29d;
+  text-align: center;
+}
+
+ audio {
+  width: 29vw;
+  padding-top: 1.5vw;
+  margin-left: 4vw;
+ }
+
+audio::-webkit-media-controls-panel {
+  height: 4vw;
+  border-radius: 1vw;
+  background: #1e151a;
+  opacity: 0.3;
+}
+
+li {
+  background-image: center;
+  background-size: cover;
+  font-family: "Lato", sans-serif;
+  font-size: 1.5vw;
+  color: #4d2f31;
+  padding: .5vw;
+}
+
+.album-art {
+  padding-top: 2vw;
+  padding-right: 1vw;
+}
+
+ul {
+  background: rgba(189, 116, 119, 0.3);
+  margin: 2vw;
+  border-radius: 2vw;
+  padding-left: 1.5vw;
+  text-align: center;
+}
+
+.fa-play {
+  color: #a1a29d;
+}
+
+button {
+  font-size: 2.5vw;
+  background-color: #4d2f31;
+  width: 5vw;
+  height: 5vw;
+  padding-left: 1.25vw;
+  border: solid 4px #91595c;
+  border-radius: .5vw;
+  margin-bottom: 1.5vw;
+}
+
+.avatar {
+  width: 13vw;
+  height: 12.5vw;
+}
